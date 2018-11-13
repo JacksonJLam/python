@@ -3,6 +3,7 @@
 #Prins "Hello Python!" ten times
 
 def hellop() :
+    #Loops 10 Times
     for i in range(10):
         print("Hello Python!")
 hellop()
