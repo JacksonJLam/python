@@ -4,6 +4,7 @@
 
 def ztn() :
     for i in range(10) :
+        #Sets x to what loop the script is on
         x = i
         print(x)
 ztn()
