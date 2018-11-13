@@ -4,6 +4,7 @@
 
 def ztt() :
     for i in range(11) :
+        #x = the current loop
         x = i
         print(x)
 ztt()
