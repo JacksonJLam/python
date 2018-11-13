@@ -1,6 +1,6 @@
 #sqrs.py
 #Created by Jackson Lambert 11-13-18
-#Prints integers 2 to 20
+#prints squares of integers 1-10
 
 def sqrs() :
     for i in range(10) :
