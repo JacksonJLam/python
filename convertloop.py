@@ -7,10 +7,10 @@ def main() :
     #All (" ") Is whitespace to improve readability
     print(" ")
     #Telling the user how many times it'll loop
-    print("This script will run 3 times before exiting")
+    print("This script will run 5 times before exiting")
     print(" ")
-    #Looping the equation 3 times
-    for i in range(3) :
+    #Looping the equation 5 times
+    for i in range(5) :
         #Ask for user input
         celsius = eval(input("What is the Celsius temperature? "))
         print(" ")
