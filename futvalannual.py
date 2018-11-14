@@ -11,11 +11,11 @@ def main():
     principal = eval(input("Enter the amount you will invest every year: "))
     apr = eval(input("Enter the annual interest rate: "))
     years = eval(input("Enter the amount of time (in years) the investment stays: "))
-    #Math to find the increase over the amount of years specified, i didn't keep the loop here, as it made the math wrong
     principal = principal * years
     #Above is finding the ammount you put in and below is tha amount in plus interest rates
-    final = principal * (1 + apr)
+    for i in range(years):
+        principal = principal * (1 + apr)
     #Print Results
-    print("The value in", years, "years is: ", final)
+    print("The value in", years, "years is: ", principal)
 
 main()
