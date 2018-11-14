@@ -3,6 +3,7 @@
 #Jackson Lambert 11-14-18
 
 def main() :
+    print("Welcome to my madlib-esque thingy")
     n1 = input("Enter a noun: ")
     n2 = input("Enter another noun: ")
     v = input("Enter a verb: ")
