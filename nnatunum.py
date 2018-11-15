@@ -7,6 +7,7 @@ def main() :
     print("This script will add all natural numbers up until a specified number")
     n = eval(input("Enter the number you want to add until: "))
     #Add 1 so it counts to the number specified except for just below
+    whole = 0
     n = n + 1
     #loop from 1 to n
     for i in range(1, n) :
