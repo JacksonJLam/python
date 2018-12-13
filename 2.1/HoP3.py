@@ -3,7 +3,7 @@
 #Gives out quiz grades
 
 def main() :
-    print("This script will display your quiz grade when a value 1-5 is given")
+    print("This script will display your quiz grade when a value 0-100 is given")
     grade = eval(input("What was your grade?(0-100): "))
     if grade == 100 :
         grade = str(grade)
