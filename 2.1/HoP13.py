@@ -4,7 +4,7 @@
 # Program to creates a caesar cipher via batch files
 
 def main():
-    print("This program creates a file of usernames from a file of names.")
+    print("This encodes/decodes messages from a text file.")
 
     # get the file names
     infileName = input("What file are the ciphers in? ")
