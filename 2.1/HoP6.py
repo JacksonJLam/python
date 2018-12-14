@@ -1,10 +1,10 @@
 #HoP5.py
 #Jackson Lambert 12-13-18
-#Acronym generator
+#Calculates numerical value of a full name
 
 def main() :
     print("This script will get the numerical value of your name")
-    name = input("Input your name(all lowercase): ")
+    name = input("Input your first midde and last name (all lowercase): ")
     first, middle, last = name.split()
     v = 0
     for i in first :
