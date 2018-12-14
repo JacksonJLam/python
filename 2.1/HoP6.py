@@ -1,4 +1,4 @@
-#HoP5.py
+#HoP6.py
 #Jackson Lambert 12-13-18
 #Calculates numerical value of a full name
 
