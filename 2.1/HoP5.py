@@ -1,10 +1,10 @@
 #HoP5.py
 #Jackson Lambert 12-13-18
-#Acronym generator
+#Numerical value of name generator
 
 def main() :
     print("This script will get the numerical value of your name")
-    name = input("Input your name(all lowercase): ")
+    name = input("Input your first name(all lowercase): ")
     v = 0
     for i in name :
         a = ord(i) - 96
