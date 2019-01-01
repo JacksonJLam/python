@@ -33,6 +33,10 @@ def main():
             #draw the scores
             amnt = Text(Point(horpos + 25, 340 - amountgraph), amount)
             amnt.draw(win)
+    Text(Point(550, 425), "Click twice to exit").draw(win)
+    win.getMouse()
+    win.getMouse()
+    win.close()
     testscores.close()
 main()
 #file example
