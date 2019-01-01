@@ -13,7 +13,7 @@ def main():
     #set the height of the graph depending on test scores
     height = loops * 125
     win = GraphWin('Graphs',500, height)
-    for line in range(loops + 2) :
+    for line in range(loops + 1) :
             #Read the line
             scores = testscores.readline()
             #split the values in the line
@@ -37,6 +37,12 @@ def main():
                 bar.undraw()
                 name.undraw()
                 drawnscore.undraw()
+     #closes the graph
+    Text(Point(100, 40), "Click twice to exit").draw(win)
+    win.getMouse()
+    win.getMouse()
+    win.close()
+    testscores.close()
     #close the file
     testscores.close()
 main()
