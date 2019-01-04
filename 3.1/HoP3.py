@@ -1,6 +1,6 @@
 #HoP3.py
 #Jackson Lambert 1-4-19
-#Grades if statements
+#Grades with if statements
 
 def main() :
     print("This quiz will give you a letter grade depending on a score of 0-100")
