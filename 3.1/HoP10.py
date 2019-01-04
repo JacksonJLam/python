@@ -12,6 +12,11 @@ def maths(year) :
     date = 22 + d + e
     date = date - 31
     print("The date of Easter in",year,"is April",date)
+    if date < 0 :
+        date = date + 31
+        print("The date of Easter in",year,"is March",date)
+    else :
+        print("The date of Easter in",year,"is April",dat
 #calculates date
 def mathsmod(year) :
         a = year % 19
